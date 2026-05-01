@@ -1,0 +1,8 @@
+# TODO: Define your services
+#
+# Requirements:
+# - Service "db": PostgreSQL (postgres:16-alpine)
+# - Service "api": your Dockerfile, depends on db
+# - api exposes port 8080 on the host
+# - Use environment variables from .env for DB credentials
+# - Do NOT hardcode passwords in this file
